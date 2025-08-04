@@ -37,7 +37,7 @@ with st.expander("ℹ️ About Task Scheduling Optimizer and Usage Instructions"
 
         This is the problem this tool solves with the quantum-inspired tensor networks algorithm. This algorithm creates the tensor network representation of a tensor which provides the solution of the problem.
 
-        There are two versions: the iterative one, which adds only the neccessary constraints until obtains the correct solution, and the genetic one, which applies a genetic algorithm to the iterative tensor network solver.
+        There are two versions: the iterative one, which adds only the necessary constraints until obtains the correct solution, and the genetic one, which applies a genetic algorithm to the iterative tensor network solver.
         
         ### Real-World Applications 🏭
 
@@ -508,4 +508,5 @@ if st.button("Optimize! 🚀", use_container_width=True):
                 )
                 
         except Exception as e:
+
             st.error(f"An error occurred: {str(e)}")
