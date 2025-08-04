@@ -1,6 +1,6 @@
 # Task Scheduling Optimization
 
-This repository contains the implementation of a quantum-inspired tensor network approach for task scheduling optimization in industrial plants, as described in the paper ["Task Scheduling Optimization from a Tensor Network Perspective"](https://arxiv.org/abs/2311.10433).
+This repository contains the implementation of a quantum-inspired tensor network approach for task scheduling optimization in industrial plants, as described in the paper ["Task Scheduling Optimization from a Tensor Network Perspective"](https://arxiv.org/abs/2311.10433). There is an interactive version at Streamlit [https://task-scheduler-with-tensor-networks.streamlit.app/](https://task-scheduler-with-tensor-networks.streamlit.app/).
 
 ## Overview
 
@@ -84,5 +84,6 @@ If you use this code in your research, please cite:
 ```
 
 ## License
+
 
 MIT License
