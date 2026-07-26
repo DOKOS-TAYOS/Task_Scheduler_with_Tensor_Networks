@@ -85,6 +85,14 @@ If you use this code in your research, please cite:
 
 ## License
 
-This project is released under the [MIT License](LICENSE). See also
-[NOTICE](NOTICE) and [THIRD_PARTY.md](THIRD_PARTY.md) for third-party
+**Software / source code** in this repository is released under the
+[MIT License](LICENSE).
+
+**Paper / preprint PDF** bundled in this repository
+(`Task_Scheduling_Optimization_with_Direct_Constraints_from_a_Tensor_Network_Perspective.pdf`,
+[arXiv:2311.10433](https://arxiv.org/abs/2311.10433)) is licensed under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), not MIT.
+
+See [NOTICE](NOTICE) for the full license-scope statement and funding
+acknowledgment, [THIRD_PARTY.md](THIRD_PARTY.md) for third-party
 dependency notices, and [CITATION.cff](CITATION.cff) for citation metadata.

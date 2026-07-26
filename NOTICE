@@ -1,10 +1,30 @@
 Task_Scheduler_with_Tensor_Networks
 Copyright (c) 2025 Alejandro Mata Ali
 
-Software license
-----------------
-This software and associated documentation files are licensed under the MIT
-License. See the LICENSE file in this repository.
+License scope
+-------------
+This repository contains materials under two different licenses:
+
+1. Software / source code
+   All source code and project documentation authored for this
+   repository (for example README, NOTICE, and code comments) are
+   licensed under the MIT License. See the LICENSE file.
+
+2. Bundled paper / preprint PDF
+   The bundled scholarly PDF
+   Task_Scheduling_Optimization_with_Direct_Constraints_from_a_Tensor_Network_Perspective.pdf
+   (arXiv:2311.10433, https://arxiv.org/abs/2311.10433) is NOT under
+   the MIT License. It is licensed under Creative Commons Attribution
+   4.0 International (CC BY 4.0):
+   https://creativecommons.org/licenses/by/4.0/
+
+Do not treat the paper PDF as MIT-licensed "associated documentation."
+
+Funding acknowledgment
+----------------------
+The research leading to the paper has received funding from the Q4Real
+project (Quantum Computing for Real Industries), HAZITEK 2022,
+no. ZE-2022/00033.
 
 Third-party software
 --------------------
@@ -13,4 +33,4 @@ own upstream licenses and terms. They are not copied into this repository;
 they are installed separately. A short license summary is in THIRD_PARTY.md.
 
 Key packages:
-  streamlit, numpy, pandas, tensornetwork
+  streamlit, numpy, pandas, tensornetwork, matplotlib
