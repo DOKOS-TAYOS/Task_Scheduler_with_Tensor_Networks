@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: If you use this software or the associated paper, please cite it using these metadata.
+title: "Task Scheduler with Tensor Networks"
+type: software
+authors:
+  - family-names: Mata Ali
+    given-names: Alejandro
+    email: alejandro.mata.ali@gmail.com
+  - family-names: Perez Delgado
+    given-names: Iñigo
+  - family-names: García Markaida
+    given-names: Beatriz
+  - family-names: Moreno Fdez. de Leceta
+    given-names: Aitor
+license: MIT
+repository-code: "https://github.com/DOKOS-TAYOS/Task_Scheduler_with_Tensor_Networks"
+url: "https://arxiv.org/abs/2311.10433"
+abstract: >-
+  Implementation of a quantum-inspired tensor network approach for task
+  scheduling optimization with directed constraints, accompanying the paper
+  arXiv:2311.10433.
+keywords:
+  - tensor networks
+  - combinatorial optimization
+  - task scheduling
+  - quantum-inspired
+  - streamlit
+identifiers:
+  - type: other
+    value: "arXiv:2311.10433"
+    description: arXiv preprint identifier
+  - type: doi
+    value: 10.48550/arXiv.2311.10433
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Mata Ali
+      given-names: Alejandro
+    - family-names: Perez Delgado
+      given-names: Iñigo
+    - family-names: García Markaida
+      given-names: Beatriz
+    - family-names: Moreno Fdez. de Leceta
+      given-names: Aitor
+  title: "Task Scheduling Optimization with Direct Constraints from a Tensor Network Perspective"
+  year: 2024
+  doi: 10.48550/arXiv.2311.10433
+  url: "https://arxiv.org/abs/2311.10433"
+  identifiers:
+    - type: other
+      value: "arXiv:2311.10433"
+      description: arXiv preprint identifier

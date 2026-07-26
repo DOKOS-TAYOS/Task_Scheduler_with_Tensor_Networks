@@ -85,5 +85,6 @@ If you use this code in your research, please cite:
 
 ## License
 
-
-MIT License
+This project is released under the [MIT License](LICENSE). See also
+[NOTICE](NOTICE) and [THIRD_PARTY.md](THIRD_PARTY.md) for third-party
+dependency notices, and [CITATION.cff](CITATION.cff) for citation metadata.

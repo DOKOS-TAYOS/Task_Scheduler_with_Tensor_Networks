@@ -1,0 +1,16 @@
+Task_Scheduler_with_Tensor_Networks
+Copyright (c) 2025 Alejandro Mata Ali
+
+Software license
+----------------
+This software and associated documentation files are licensed under the MIT
+License. See the LICENSE file in this repository.
+
+Third-party software
+--------------------
+Runtime Python dependencies declared in requirements.txt remain under their
+own upstream licenses and terms. They are not copied into this repository;
+they are installed separately. A short license summary is in THIRD_PARTY.md.
+
+Key packages:
+  streamlit, numpy, pandas, tensornetwork
