@@ -1,5 +1,5 @@
 streamlit>=1.61.1
-numpy>=2.5.1
+numpy>=2.5.2
 tensornetwork>=0.4.6
 pandas>=3.0.5
 matplotlib>=3.8.0
