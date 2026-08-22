@@ -49,35 +49,12 @@ def test_streamlit_application_starts_without_exceptions() -> None:
     assert not list(application.exception)
 
 
-def test_dependabot_policy_tracks_both_real_ecosystems() -> None:
-    configuration = yaml.safe_load(
-        (ROOT / ".github" / "dependabot.yml").read_text(encoding="utf-8")
-    )
+def test_frozen_repository_pauses_routine_dependency_updates() -> None:
+    assert not (ROOT / ".github" / "dependabot.yml").exists()
 
-    assert configuration["version"] == 2
-    assert len(configuration["updates"]) == 2
-    assert {entry["package-ecosystem"] for entry in configuration["updates"]} == {
-        "pip",
-        "github-actions",
-    }
-    assert all(entry["directory"] == "/" for entry in configuration["updates"])
-    assert all(
-        entry["open-pull-requests-limit"] == 3 for entry in configuration["updates"]
-    )
-    assert all(
-        entry["schedule"]
-        == {
-            "interval": "weekly",
-            "day": "saturday",
-            "time": "02:15",
-            "timezone": "Europe/Madrid",
-        }
-        for entry in configuration["updates"]
-    )
-    assert all(
-        "groups" not in entry and "ignore" not in entry
-        for entry in configuration["updates"]
-    )
+    maintenance = (ROOT / "MAINTENANCE.md").read_text(encoding="utf-8")
+    assert "frozen for routine maintenance" in maintenance
+    assert "reviewer or editor requests" in maintenance
 
 
 def test_required_gate_depends_on_the_real_quality_job() -> None:
